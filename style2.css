@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Orbitron&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Orbitron&family=Rubik+Microbe&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+
+
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+
+:root {
+    --second-bg-color: #323946;
+
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+
+
+.header {
+    background-color: #948cdd;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 2rem 9%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-content a {
+    margin-left: 4rem;
+    color: #c1c1dd;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.header .header-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.nav-link {
+    margin: .2rem;
+}
+
+.header-content a:hover {
+    color: rgb(86, 53, 231);
+}
+
+.header-content {
+    margin-top: .2rem;
+}
+
+.logo {
+    font-size: 2.9rem;
+    color: black;
+    left: 0;
+    font-weight: 500;
+    font-family: 'Ubuntu', cursive;
+    cursor: default;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#trial-button {
+    margin-left: 2.9rem;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: .3rem;
+    color: white;
+    border: .3rem solid rgb(86, 53, 231);
+    border-radius: .9rem;
+    background-color: #4f3fe0;
+    text-align: center;
+    justify-content: center;
+}
+
+#trial-button:hover {
+    color: white;
+    background-color: rgb(52 41 102);
+}
+
+/* .btn{
+    margin-left:2.3rem ;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: .3rem;
+    color: white;
+    border: .3rem solid rgb(86, 53, 231);
+    border-radius: .9rem;
+    background-color: #1500d3;
+ }
+ .btn:hover{
+    color: white;
+    background-color: rgb(94, 72, 219);
+} */
+
+
+#contact-number {
+    margin-left: .5rem;
+    margin-right: 0;
+    cursor: default;
+    pointer-events: none;
+    color: #13383aba;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+
+
+/* ---mainContent--- */
+.services {
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 9%;
+
+}
+
+.services h2 {
+    font-size: 3.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.services p {
+    font-size: 1.7rem;
+}
+
+.service-container {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.service-container .services-box {
+    flex: 1 1 30rem;
+    display: inline-block;
+    background-color: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border: .2rem solid var(--bg-color);
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.service-container .services-box p {
+    color: #72ff8a;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.service-container .services-box #phone {
+    width: 100%;
+    height: 3rem;
+    border: 0.3rem solid black;
+    border-radius: 0.7rem;
+    color: whitesmoke;
+    background-color: #a28db9;
+}
+
+#country {
+    color: rgb(173 169 42);
+    border: .3rem solid #948cdd;
+    border-radius: .6rem;
+    height: auto;
+}
+
+#mobile {
+    color: black;
+    border: .3rem solid #948cdd;
+    border-radius: .6rem;
+    width: max-content;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 9%;
+    background-color: #948cdd;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text p {
+    font-size: 1.5rem;
+    color: #151e0dba;
+    font-weight: 500;
+}
+
+.background {
+    background: url("./background.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+}
+
+#valid-msg {
+    font-weight: 600;
+    color: greenyellow;
+}
+
+#error-msg {
+    font-weight: 600;
+    color: red;
+}
+
+@media(max-width:726px) {
+    .logo {
+        font-size: 2.4rem;
+    }
+
+
+
+    .services h2 {
+        font-size: 3.4rem;
+    }
+
+    .services p {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:645px) {
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    #trial-button {
+        padding: 0.1rem;
+    }
+
+    .services h2 {
+        font-size: 3.2rem;
+    }
+
+    .services p {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:575px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    .services h2 {
+        font-size: 3rem;
+    }
+
+    .services p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:627px) {
+    #menu-icon {
+        display: block;
+        font-size: xx-large;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
+
+    .hamburger .active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(-10px) rotate(-45deg);
+
+    }
+
+    .header-content {
+        position: fixed;
+        top: 55.4px;
+        margin-left: 0 0 0 0;
+        left: -10px;
+        margin: 0 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.3s ease;
+        background-color: #948cdd;
+        border: .2rem solid black;
+    }
+
+    .header .header-content a {
+        margin: 0.3rem;
+        padding: 0.3rem;
+        color: black;
+        font-weight: 400;
+        left: -100%;
+    }
+
+    #trial-button {
+        font-size: 2.5rem;
+    }
+
+    .header-content.active {
+        display: none;
+    }
+    .service-box{
+     width: max-content;
+    }
+}
+
+
+
+
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+}
